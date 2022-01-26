@@ -41,6 +41,6 @@ public class EJ3 {
     }
 
     public class Bus extends Car {
-        
+
     }
 }
