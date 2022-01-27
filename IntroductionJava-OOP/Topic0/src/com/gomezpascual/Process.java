@@ -27,7 +27,7 @@ public class Process implements Comparable<Process> {
     }
 
     public String getString() {
-        return new String(this.type + "00" + this.id);
+        return new String(this.type + String.format("%03d", this.id));
     }
 
     @Override
