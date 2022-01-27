@@ -7,7 +7,7 @@ import java.util.Comparator;
 public class Memory {
 
     public static final int MEMORY_SIZE = 200;
-    public static ArrayList<Process> memory = new ArrayList<>(MEMORY_SIZE);
+    private static ArrayList<Process> memory = new ArrayList<>(MEMORY_SIZE);
     static
     {
         for (int i = 0; i < 200; i++) {
