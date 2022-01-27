@@ -31,7 +31,7 @@ public class Main {
                         break;
                     case 'd':
                         //delete process
-                        Memory.removeProcess(answerChars[3]);
+                        Memory.removeProcess(Integer.parseInt(String.valueOf(Arrays.copyOfRange(answerChars, 1, answerChars.length))));
                         break;
                     case 'q':
                         //quit program
@@ -49,19 +49,15 @@ public class Main {
 
     public static boolean validateCommand(char[] answer) {
 
-        if (answer[0] == 'd' && answer.length == 4) {
-            String str1 = new String(Arrays.copyOfRange(answer, 1, 3));
+        if (answer[0] == 'd') {
+            String str1 = new String(Arrays.copyOfRange(answer, 1, answer.length));
 
-            if (str1.matches("-?\\d+")) return true;
+            return str1.matches("-?\\d+");
 
         } else if (answer[0] == 'c' && answer.length == 2) {
-            if (answer[1] == 's' || answer[1] == 'a') return true;
+            return answer[1] == 's' || answer[1] == 'a';
 
-        }else if (answer[0] == 'q' && answer.length == 1) {
-            return true;
-        }
-
-        return false;
+        } else return answer[0] == 'q' && answer.length == 1;
     }
 
 }

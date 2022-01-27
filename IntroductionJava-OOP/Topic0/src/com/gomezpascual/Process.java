@@ -1,22 +1,39 @@
 package com.gomezpascual;
 
-abstract class Process {
+public class Process implements Comparable<Process> {
 
     int size;
-    String id;
-    int count = 1;
+    int id;
+    static int count = 1;
+    char type;
 
     Process(char type, int min, int max) {
-        count++;
-        setId(count, type);
+        setId(count);
         setSize(min, max);
+        this.type = type;
+        count++;
     }
 
-    public void setId(int id, char type) {
-        this.id = type + "00" + id;
+    public int getId() {
+        return this.id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public void setSize(int min, int max) {
         this.size = (int) (Math.random() * (max-min+1) + min);
+    }
+
+    public String getString() {
+        return new String(this.type + "00" + this.id);
+    }
+
+    @Override
+    public int compareTo(Process o) {
+        Integer thisID = this.id;
+        Integer argumentID = o.id;
+        return thisID.compareTo(argumentID);
     }
 }
