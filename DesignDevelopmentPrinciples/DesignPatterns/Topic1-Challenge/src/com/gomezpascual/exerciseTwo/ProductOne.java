@@ -5,6 +5,7 @@ import java.util.List;
 
 public class ProductOne extends Product {
 
+    //Subscription list. Static to have only one instance of list per product
     private static List<ProductObserver> observers = new ArrayList<>();
 
     ProductOne() {
