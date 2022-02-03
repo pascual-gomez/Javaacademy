@@ -5,6 +5,7 @@ public class Client {
         ProductOne productOne = new ProductOne();
         ProductTwo productTwo = new ProductTwo();
         ProductThree productThree = new ProductThree();
+        ProductOne productOne1 = new ProductOne();
 
         PriceObserver price = new PriceObserver();
 
@@ -23,8 +24,20 @@ public class Client {
         productTwo.updatePrice(18);
         productTwo.detach(price);
         productThree.attach(price);
+        productThree.attach(price);
         productTwo.updatePrice(20);
         productThree.updatePrice(30);
+        productOne1.attach(price);
+
+        System.out.println("*********************");
+
+        //Print current state of subscription lists
+        System.out.println("List One: ");
+        ProductOne.getSubsList();
+        System.out.println("List Two: ");
+        ProductTwo.getSubsList();
+        System.out.println("List Three: ");
+        ProductThree.getSubsList();
 
     }
 }
