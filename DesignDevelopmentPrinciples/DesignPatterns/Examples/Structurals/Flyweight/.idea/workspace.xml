@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="754915d9-4af4-476e-999e-af76082de7b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/ArrayLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/FifoCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/SinglyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/SinglyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/Composite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/Decorator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Base64EncodedMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/HtmlEncodedMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Facade/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Facade/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Facade/Facade.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Queue.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="24Zvq5tNj8vNW6yqsUMie8y5JXl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gomezpascual.Main" />
+      <module name="Flyweight" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="754915d9-4af4-476e-999e-af76082de7b2" name="Changes" comment="" />
+      <created>1643851112929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643851112929</updated>
+    </task>
+    <servers />
+  </component>
+</project>

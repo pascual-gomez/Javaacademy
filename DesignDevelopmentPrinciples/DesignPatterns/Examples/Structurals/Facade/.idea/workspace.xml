@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="096a1849-9b03-481c-bb01-b9e1428787b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/ArrayLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/FifoCollection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/Queue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/SinglyLinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/SinglyLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/Composite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/BinaryFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/Decorator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/out/production/Decorator/com/gomezpascual/Base64EncodedMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/out/production/Decorator/com/gomezpascual/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/out/production/Decorator/com/gomezpascual/HtmlEncodedMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/out/production/Decorator/com/gomezpascual/Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/out/production/Decorator/com/gomezpascual/TextMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Base64EncodedMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/HtmlEncodedMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/TextMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Facade.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/EmailBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/EmailFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/HalloweenStationary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/Mailer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/OrderEmailTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/Stationary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/StationaryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/email/TemplateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/Flyweight.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/src/com/gomezpascual/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/src/com/gomezpascual/ErrorMessageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/src/com/gomezpascual/SystemErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flyweight/src/com/gomezpascual/UserBannedErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/Proxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/BitmapImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/ImageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/ImageProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/dynamic/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/dynamic/ImageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proxy/src/com/gomezpascual/dynamic/ImageInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Queue.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24Zvkyp3XTqLYc5YBYPgNCesRkb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gomezpascual.Main" />
+      <module name="Facade" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="096a1849-9b03-481c-bb01-b9e1428787b9" name="Changes" comment="" />
+      <created>1643851073612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643851073612</updated>
+    </task>
+    <servers />
+  </component>
+</project>
