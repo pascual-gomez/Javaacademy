@@ -1,4 +1,5 @@
 package com.gomezpascual.exerciseOne;
 
-public interface Storage {
+public abstract class Storage {
+    abstract void provideStorage();
 }

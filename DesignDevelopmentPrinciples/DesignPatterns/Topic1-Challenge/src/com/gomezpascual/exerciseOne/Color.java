@@ -1,4 +1,5 @@
 package com.gomezpascual.exerciseOne;
 
-public interface Color {
+public abstract class Color {
+    abstract void paint();
 }
