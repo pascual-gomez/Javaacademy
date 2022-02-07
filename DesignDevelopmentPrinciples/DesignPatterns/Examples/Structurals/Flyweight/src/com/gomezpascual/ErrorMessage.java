@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.flyweight;
+package com.gomezpascual;
 
 //Interface implemented by Flyweights
 public interface ErrorMessage {

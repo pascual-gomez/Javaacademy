@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="754915d9-4af4-476e-999e-af76082de7b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/ArrayLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/FifoCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/SinglyLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bridge/out/production/Bridge/com/gomezpascual/SinglyLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/Composite.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/BinaryFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Composite/src/com/gomezpascual/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/Decorator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Base64EncodedMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/HtmlEncodedMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Decorator/src/com/gomezpascual/TextMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Facade/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Facade/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Facade/Facade.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bridge/src/com/gomezpascual/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Facade/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gomezpascual/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gomezpascual/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gomezpascual/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gomezpascual/ErrorMessageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gomezpascual/ErrorMessageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gomezpascual/SystemErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gomezpascual/SystemErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gomezpascual/UserBannedErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gomezpascual/UserBannedErrorMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24Zvq5tNj8vNW6yqsUMie8y5JXl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -100,7 +82,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gomezpascual.Client" />
+      <module name="Flyweight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gomezpascual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.gomezpascual.Main" />
       <module name="Flyweight" />
@@ -111,6 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

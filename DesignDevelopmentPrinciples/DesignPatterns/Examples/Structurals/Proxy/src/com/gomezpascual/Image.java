@@ -1,13 +1,11 @@
-package com.coffeepoweredcrew.proxy;
-
-import javafx.geometry.Point2D;
+package com.gomezpascual;
 
 //Interface implemented by proxy and concrete objects
 public interface Image {
 
-	void setLocation(Point2D point2d);
+	void setLocation(Integer location);
 	
-	Point2D getLocation();
+	Integer getLocation();
 	
 	void render();
 	

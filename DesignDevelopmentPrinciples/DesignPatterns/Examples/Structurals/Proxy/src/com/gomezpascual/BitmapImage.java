@@ -1,11 +1,10 @@
-package com.coffeepoweredcrew.proxy;
+package com.gomezpascual;
 
-import javafx.geometry.Point2D;
 
 //Our concrete class providing actual functionality
 public class BitmapImage implements Image {
 	
-	private Point2D location;
+	private Integer location;
 	private String name;
 	
 	public BitmapImage(String filename) {
@@ -15,12 +14,12 @@ public class BitmapImage implements Image {
 	}
 	
 	@Override
-	public void setLocation(Point2D point2d) {
+	public void setLocation(Integer point2d) {
 		location = point2d;
 	}
 
 	@Override
-	public Point2D getLocation() {
+	public Integer getLocation() {
 		return location;
 	}
 

@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="096a1849-9b03-481c-bb01-b9e1428787b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/BatteryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/MusicStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/PortableMusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/StorageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/BlueColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/BlueColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/EightGBStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/EightGBStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/GreenColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/GreenColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/SixteenGBStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/SixteenGBStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Topic1-Challenge/src/com/gomezpascual/exerciseOne/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

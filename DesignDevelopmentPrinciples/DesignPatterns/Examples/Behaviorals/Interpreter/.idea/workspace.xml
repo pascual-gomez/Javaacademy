@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="417661ea-1243-4ea8-a6ea-d9b8fde22fe2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/LeaveApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/LeaveApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Chain of Responsability/src/com/gomezpascual/ProjectLead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Command/src/com/gomezpascual/AddMemberCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Command/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Command/src/com/gomezpascual/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Command/src/com/gomezpascual/EWSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Command/src/com/gomezpascual/MailTasksRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interpreter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/ExpressionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/NotExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/PermissionExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gomezpascual/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/Iterator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/com/gomezpascual/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/com/gomezpascual/ThemeColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/Mediator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/src/com/gomezpascual/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/src/com/gomezpascual/Slider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/src/com/gomezpascual/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/src/com/gomezpascual/UIControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mediator/src/com/gomezpascual/UIMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/Memento.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/Workflow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/WorkflowDesigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/command/AbstractWorkflowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/command/AddStepCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/command/CreateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/command/RemoveStepCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Memento/src/com/gomezpascual/command/WorkflowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/State.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/Cancelled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/Delivered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/InTransit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/New.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../State/src/com/gomezpascual/Paid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/Strategy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/DetailPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/OrderPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/PrintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/SummaryPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Strategy/src/com/gomezpascual/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Template Method/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Template Method/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Template Method/Template Method.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Facade/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Facade/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Flyweight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Flyweight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/ErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/ErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/ErrorMessageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/ErrorMessageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/SystemErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/SystemErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/UserBannedErrorMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Flyweight/src/com/gomezpascual/UserBannedErrorMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Proxy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/BitmapImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/BitmapImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/ImageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/ImageFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/ImageProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/ImageProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/dynamic/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/dynamic/ImageFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Structurals/Proxy/src/com/gomezpascual/dynamic/ImageInvocationHandler.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24nfoLuxTXhF3Ah4LehBD8NWDnE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gomezpascual.Client" />
+      <module name="Interpreter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gomezpascual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gomezpascual.Main" />
+      <module name="Interpreter" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="417661ea-1243-4ea8-a6ea-d9b8fde22fe2" name="Changes" comment="" />
+      <created>1644271448002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644271448002</updated>
+    </task>
+    <servers />
+  </component>
+</project>
