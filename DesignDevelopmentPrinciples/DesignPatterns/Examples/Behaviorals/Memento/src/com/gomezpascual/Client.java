@@ -1,8 +1,8 @@
-package com.coffeepoweredcrew.memento;
+package com.gomezpascual;
 
-import com.coffeepoweredcrew.memento.command.AddStepCommand;
-import com.coffeepoweredcrew.memento.command.CreateCommand;
-import com.coffeepoweredcrew.memento.command.WorkflowCommand;
+import com.gomezpascual.command.AddStepCommand;
+import com.gomezpascual.command.CreateCommand;
+import com.gomezpascual.command.WorkflowCommand;
 
 import java.util.Collection;
 import java.util.LinkedList;
@@ -13,15 +13,7 @@ public class Client {
         WorkflowDesigner designer = new WorkflowDesigner();
         LinkedList<WorkflowCommand> commands = runCommands(designer);
         designer.print();
-        undoLastCommand(commands);
-        designer.print();
-        undoLastCommand(commands);
-        designer.print();
-        undoLastCommand(commands);
-        designer.print();
-        undoLastCommand(commands);
-        designer.print();
-        undoLastCommand(commands);
+        commands.removeLast().undo();
         designer.print();
     }
 

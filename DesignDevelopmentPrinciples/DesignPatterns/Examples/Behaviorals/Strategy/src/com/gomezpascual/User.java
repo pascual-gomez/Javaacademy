@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.strategy;
+package com.gomezpascual;
 
 public class User {
 }

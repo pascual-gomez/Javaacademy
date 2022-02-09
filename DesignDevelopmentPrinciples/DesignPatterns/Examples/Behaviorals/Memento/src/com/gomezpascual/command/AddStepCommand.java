@@ -1,6 +1,6 @@
-package com.coffeepoweredcrew.memento.command;
+package com.gomezpascual.command;
 
-import com.coffeepoweredcrew.memento.WorkflowDesigner;
+import com.gomezpascual.WorkflowDesigner;
 
 public class AddStepCommand extends AbstractWorkflowCommand {
 

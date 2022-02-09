@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.memento.command;
+package com.gomezpascual.command;
 
 public interface WorkflowCommand {
 
