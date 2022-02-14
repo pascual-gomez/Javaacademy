@@ -1,0 +1,6 @@
+La solución propuesta contempla el futuro de la aplicación porque permite crear nuevas
+impresoras del tipo que se requiera y agregarlas en la lista de impresoras que se pueden usar.
+También permite la impresión a color en estas nuevas impresoras mediante un atributo que indica
+la posibilidad de impresión a color. En un futuro, cuando todas las impresoras sean a color y
+no permitan impresión a blanco y negro, el parámetro de entrada para indicar si a color o blanco y negro,
+siempre estaría en 'true' para indicar que son a color.
