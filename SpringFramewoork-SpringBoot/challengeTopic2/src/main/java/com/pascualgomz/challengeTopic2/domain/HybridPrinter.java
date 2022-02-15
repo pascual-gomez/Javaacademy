@@ -1,21 +1,24 @@
 package com.pascualgomz.challengeTopic2.domain;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
-@Component
-public class HybridPrinter extends Printer {
-
-    private boolean blackAndWhite = true;
-    private boolean color = true;
+@Service
+@Qualifier(value = "hybrid-printer")
+public class HybridPrinter implements BasicPrinter, MultifunctionPrinter {
 
     @Override
-    public void print(Document document, boolean color) {
-        if (!color) {
-            System.out.println("Printing a B&W document " + document.getName() + " on a hybrid printer...");
-        } else {
-            System.out.println("Printing a color document " + document.getName() + " on a hybrid printer...");
-        }
+    public void printBlackAndWhite(Document document) {
+        System.out.println("Printing a b&w document " + document.getName() + " on a hybrid printer...");
     }
 
+    @Override
+    public void printColor(Document document) {
+        System.out.println("Printing a color document " + document.getName() + " on a hybrid printer...");
+    }
 
+    @Override
+    public String getType() {
+        return "hybrid";
+    }
 }

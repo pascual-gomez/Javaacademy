@@ -1,28 +1,28 @@
 package com.pascualgomz.challengeTopic2.domain;
 
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Repository
 public class PrinterList {
-    private List<Printer> printersList = new ArrayList<Printer>();
+    private ArrayList printersList = new ArrayList<>();
 
-    public void addPrinter(Printer printer) {
+    public void addBasicPrinter(BasicPrinter printer) {
         printersList.add(printer);
     }
 
-    public void removePrinter(Printer printer) {
-        printersList.remove(printer);
+    public void addMultifunctionPrinter(MultifunctionPrinter printer) {
+        printersList.add(printer);
     }
 
-    public List<Printer> getList() {
+    public void removePrinter(int printerIndex) {
+        printersList.remove(printerIndex);
+    }
+
+    public List<BasicPrinter> getList() {
         return printersList;
     }
 
-    public void print(int i, Document document, boolean color) {
-        printersList.get(i).print(document, color);
-    }
 }

@@ -1,23 +1,24 @@
 package com.pascualgomz.challengeTopic2.domain;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
-@Primary
-@Component
-public class BlackAndWhitePrinter extends Printer {
+@Service
+@Qualifier(value = "blackandwhite-printer")
+public class BlackAndWhitePrinter implements BasicPrinter {
 
-    private boolean blackAndWhite = true;
-    private boolean color = false;
 
     @Override
-    public void print(Document document, boolean color) {
-        if (!color) {
-            System.out.println("Printing " + document.getName() + " on a black and white printer...");
-        } else {
-            System.out.println("This printer does not support color printing.");
-        }
+    public void printBlackAndWhite(Document document) {
+        System.out.println("Printing " + document.getName() + " on a black and white printer...");
     }
 
+    public void printColor(Document document) {
+        System.out.println("This printer do not support color printing.");
+    }
 
+    @Override
+    public String getType() {
+        return "basic";
+    }
 }
