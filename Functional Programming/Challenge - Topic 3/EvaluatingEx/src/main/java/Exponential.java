@@ -1,23 +1,36 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 import java.util.function.*;
 import java.util.stream.Collectors;
 
 public class Exponential {
 
     public static void main(String[] args) {
-        final double x = 20.000;
+        List<Double> ins = new ArrayList<>();
         final int n = 10;
 
-        System.out.println("No Currying method: e^" + x + " = " + exponential.apply(x, n-1));
-        System.out.println("Currying method: e^" + x + " = " + curryingExponential.apply(x).apply(n-1));
+        Scanner in = new Scanner(System.in);
+
+        int numberOfTests = in.nextInt();
+        in.nextLine();
+
+        for (int i = 0; i < numberOfTests; i++) {
+            double number = in.nextDouble();
+            ins.add(number);
+        }
+
+        final double x = 20.000;
+
+        System.out.println("No Currying method: e^" + x + " = " +
+                ins.stream().map(item -> exponential.apply(item, n-1)).collect(Collectors.toList()).toString());
+        System.out.println("Currying method: e^" + x + " = " +
+                ins.stream().map(item -> curryingExponential.apply(x).apply(n-1)).collect(Collectors.toList()).toString());
         System.out.println("************************");
 
-        List<Double> numbers = new ArrayList<>(Arrays.asList(20.000, 5.000, 0.500, -0.500));
-
-        System.out.println("e^x for: " + numbers.toString() + "\n" +
-                "is equal to: " + Exponential.evaluatingEuler.apply(numbers).toString());
+        System.out.println("e^x for: " + ins.toString() + "\n" +
+                "is equal to: " + Exponential.evaluatingEuler.apply(ins).toString());
     }
 
     // Exponential function without currying
@@ -28,7 +41,7 @@ public class Exponential {
     // Exponential currying function
     public static final Function<Double, Function<Integer, Double>> curryingExponential = (x) -> {
         return (n) -> {
-            return (n == 0) ? 1.000 : (Math.pow(x, n) / Exponential.factorial.apply(n)) + Exponential.exponential.apply(x, n - 1);
+            return (n == 0) ? 1.000 : (Math.pow(x, n) / Exponential.factorial.apply(n)) + Exponential.curryingExponential.apply(x).apply(n - 1);
         };
     };
 
