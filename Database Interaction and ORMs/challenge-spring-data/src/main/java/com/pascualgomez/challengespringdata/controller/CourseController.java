@@ -13,11 +13,11 @@ public class CourseController {
     private CourseRepository courseRepository;
 
     @PostMapping(path="/add") // Map ONLY POST Requests
-    public @ResponseBody String addNewCourse (@RequestParam String name, @RequestParam String tutor) {
+    public @ResponseBody String addNewCourse (@RequestBody Course course) {
 
         Course n = new Course();
-        n.setName(name);
-        n.setTutor(tutor);
+        n.setName(course.getName());
+        n.setTutor(course.getTutor());
         courseRepository.save(n);
         return "Saved";
     }

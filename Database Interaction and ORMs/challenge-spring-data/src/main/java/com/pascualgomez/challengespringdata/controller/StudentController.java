@@ -13,13 +13,12 @@ public class StudentController {
     private StudentRepository studentRepository;
 
     @PostMapping(path="/add") // Map ONLY POST Requests
-    public @ResponseBody String addNewStudent (@RequestParam String name, @RequestParam String lastname
-            , @RequestParam String email) {
+    public @ResponseBody String addNewStudent (@RequestBody Student student) {
 
         Student n = new Student();
-        n.setName(name);
-        n.setLastName(lastname);
-        n.setEmail(email);
+        n.setName(student.getName());
+        n.setLastName(student.getLastName());
+        n.setEmail(student.getEmail());
         studentRepository.save(n);
         return "Saved";
     }

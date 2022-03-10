@@ -13,12 +13,11 @@ public class CourseMemberController {
     private CourseMemberRepository courseMemberRepository;
 
     @PostMapping(path="/add") // Map ONLY POST Requests
-    public @ResponseBody String addNewCourseMember (@RequestParam Integer studentId
-            , @RequestParam Integer courseId) {
+    public @ResponseBody String addNewCourseMember (@RequestBody CourseMember courseMember) {
 
         CourseMember n = new CourseMember();
-        n.setStudentId(studentId);
-        n.setCourseId(courseId);
+        n.setStudentId(courseMember.getStudentId());
+        n.setCourseId(courseMember.getCourseId());
         courseMemberRepository.save(n);
         return "Saved";
     }
