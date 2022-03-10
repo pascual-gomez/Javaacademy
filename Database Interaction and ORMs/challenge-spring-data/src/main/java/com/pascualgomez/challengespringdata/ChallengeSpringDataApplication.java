@@ -34,7 +34,8 @@ public class ChallengeSpringDataApplication {
 			SpringApplication.run(ChallengeSpringDataApplication.class, args);
 	}
 
-	@Bean
+	// Demo Function to test tables
+/*	@Bean
 	public CommandLineRunner demo(StudentRepository studentRepository, CourseRepository courseRepository
 								, CourseMemberRepository courseMemberRepository) {
 		return (args) -> {
@@ -43,33 +44,18 @@ public class ChallengeSpringDataApplication {
 			courseMemberRepository.deleteAll();
 			courseRepository.deleteAll();
 
-			studentList.forEach(student -> {
-				studentRepository.save(student);
-			});
-			membersList.forEach(courseMember -> {
-				courseMemberRepository.save(courseMember);
-			});
-			courseList.forEach(course -> {
-				courseRepository.save(course);
-			});
+			studentRepository.saveAll(studentList);
+			courseMemberRepository.saveAll(membersList);
+			courseRepository.saveAll(courseList);
 
-			studentRepository.findAll().forEach(student -> {
-				System.out.println(student.toString());
-			});
+			studentRepository.findAll().forEach(student -> System.out.println(student.toString()));
 			System.out.println("-------");
-			courseMemberRepository.findAll().forEach(courseMember -> {
-				System.out.println(courseMember.toString());
-			});
+			courseMemberRepository.findAll().forEach(courseMember -> System.out.println(courseMember.toString()));
 			System.out.println("-------");
-			courseRepository.findAll().forEach(course -> {
-				System.out.println(course.toString());
-			});
+			courseRepository.findAll().forEach(course -> System.out.println(course.toString()));
 			System.out.println("-------");
 
-			studentRepository.findByName("Oscar").forEach(student -> {
-				System.out.println(student.toString());
-			});
+			studentRepository.findByName("Oscar").forEach(student -> System.out.println(student.toString()));
 		};
-	}
-
+	}*/
 }
