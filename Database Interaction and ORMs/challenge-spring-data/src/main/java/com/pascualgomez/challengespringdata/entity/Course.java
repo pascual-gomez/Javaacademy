@@ -1,4 +1,4 @@
-package com.pascualgomez.challengespringdata;
+package com.pascualgomez.challengespringdata.entity;
 
 import javax.persistence.*;
 
@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class Course {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    @Column(name = "id")
+    @Column(name = "c_id")
     private Integer id;
 
     @Column(name = "course_name")

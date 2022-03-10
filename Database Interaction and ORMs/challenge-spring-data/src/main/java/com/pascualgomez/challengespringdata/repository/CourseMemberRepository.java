@@ -1,5 +1,6 @@
-package com.pascualgomez.challengespringdata;
+package com.pascualgomez.challengespringdata.repository;
 
+import com.pascualgomez.challengespringdata.entity.CourseMember;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

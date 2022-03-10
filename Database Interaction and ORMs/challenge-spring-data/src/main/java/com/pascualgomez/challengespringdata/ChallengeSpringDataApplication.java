@@ -1,6 +1,11 @@
 package com.pascualgomez.challengespringdata;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.pascualgomez.challengespringdata.entity.Course;
+import com.pascualgomez.challengespringdata.entity.CourseMember;
+import com.pascualgomez.challengespringdata.entity.Student;
+import com.pascualgomez.challengespringdata.repository.CourseMemberRepository;
+import com.pascualgomez.challengespringdata.repository.CourseRepository;
+import com.pascualgomez.challengespringdata.repository.StudentRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
