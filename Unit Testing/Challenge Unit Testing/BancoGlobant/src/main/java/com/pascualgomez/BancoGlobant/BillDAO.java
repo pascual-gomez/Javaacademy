@@ -10,7 +10,7 @@ public class BillDAO {
 
     private final Map<String, Bill> bills = new HashMap<>();
 
-    public Bill get(String id) {
+    public Bill get(long id) {
         return bills.get(id);
     }
 

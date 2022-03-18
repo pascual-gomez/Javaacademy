@@ -5,15 +5,22 @@ import java.time.LocalDate;
 public class Bill {
 
     int companyId;
-    int billId;
+    long billId;
     LocalDate expireDate;
     double priceToPay;
+
+    Bill(int companyId, int billId, LocalDate expireDate, double priceToPay) {
+        this.companyId = companyId;
+        this.billId = billId;
+        this.expireDate = expireDate;
+        this.priceToPay = priceToPay;
+    }
 
     public int getCompanyId() {
         return companyId;
     }
 
-    public int getBillId() {
+    public long getBillId() {
         return billId;
     }
 

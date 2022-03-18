@@ -13,7 +13,7 @@ public class BillPaymentService {
         this.billDAO = billDAO;
     }
 
-    public void payBill(int bankAccountID, String billID) throws InsufficientFundsException, InvalidBillIdException {
+    public boolean payBill(int bankAccountID, long billID) throws InsufficientFundsException, InvalidBillIdException {
         BankAccount bankAccount = bankAccountDAO.get(bankAccountID);
         Bill bill = billDAO.get(billID);
 
@@ -25,8 +25,12 @@ public class BillPaymentService {
 
         //Verify funds and bill ID
         if (verifyFunds(bankAccount, price) && validateBillID(bill.getBillId())) {
+            bankAccount.setBalance(bankAccount.getBalance() - price);
             System.out.println("Successful payment!");
+            return true;
         }
+
+        return false;
     }
 
     public boolean verifyFunds(BankAccount bankAccount, double amount) throws InsufficientFundsException{
@@ -42,7 +46,7 @@ public class BillPaymentService {
         return bankAccount.getType().equals("current") ? amount*0.1 : 0.0;
     }
 
-    public boolean validateBillID(int billID) throws InvalidBillIdException {
+    public boolean validateBillID(long billID) throws InvalidBillIdException {
         if (billID / 100000 == 0 && billID / 1000000 == 0) {
             return true;
         } else {
