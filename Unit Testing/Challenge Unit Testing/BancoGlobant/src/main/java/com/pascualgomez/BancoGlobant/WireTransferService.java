@@ -13,7 +13,7 @@ public class WireTransferService {
 
     //Transfer
 
-    public void wireTransfer(int sourceAccountID, int targetAccountID, double amount) throws InvalidTargetFundsException, InsufficientFundsException {
+    public boolean wireTransfer(int sourceAccountID, int targetAccountID, double amount) throws InvalidTargetFundsException, InsufficientFundsException {
 
         BankAccount sourceAccount = bankAccountDAO.get(sourceAccountID);
         BankAccount targetAccount = bankAccountDAO.get(targetAccountID);
@@ -36,8 +36,13 @@ public class WireTransferService {
         double taxes = calculateTaxes(amount);
         amountToTransfer -= taxes;
 
+        sourceAccount.setBalance(sourceAccount.getBalance() - amountToDebit);
+        targetAccount.setBalance(targetAccount.getBalance() + amountToTransfer);
+
         System.out.println(toStringTransferResults(sourceAccountID, targetAccountID,
                 amountToTransfer, amountToDebit, taxes, diffBankFee));
+
+        return true;
     }
 
     public boolean verifyFunds(BankAccount bankAccount, double amount) throws InsufficientFundsException{
