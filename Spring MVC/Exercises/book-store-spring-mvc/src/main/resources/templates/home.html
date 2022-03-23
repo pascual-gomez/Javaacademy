@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Books Store!</title>
+<script type="text/javascript" src="@{/resources/js/app.js}"></script>
+</head>
+<body>
+
+	<div th:insert="~{header :: page-header}"></div>
+
+	<p th:text="#{home.welcome}">Welcome to ...</p>
+
+	<div th:insert="~{footer :: copy}"></div>
+
+</body>
+</html>

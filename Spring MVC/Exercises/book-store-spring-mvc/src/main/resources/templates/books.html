@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Books Store!</title>
+</head>
+<body>
+
+
+	<div th:insert="~{header :: page-header}"></div>
+
+	<h1>New Books</h1>
+
+	<div>
+		<form method="POST" action="/books/add" th:object="${addBookForm}">
+			<table>
+				<tr>
+					<td><label>Title</label></td>
+					<td><input th:field="*{title}" /></td>
+				</tr>
+				<tr>
+					<td><label>price</label></td>
+					<td><input th:field="*{price}" /></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Submit" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div>
+		<table>
+			<tr>
+				<th>Title</th>
+				<th>Price</th>
+			</tr>
+			<tr th:each="book : ${books}">
+				<td th:text="${book.title}" />
+				<td th:text="${book.price}"
+					th:style="${book.price < 50 ? 'color:green; font-weight:bolder' : 'color:red'}" />
+			</tr>
+		</table>
+	</div>
+
+	<div th:insert="~{footer :: copy}"></div>
+
+</body>
+</html>

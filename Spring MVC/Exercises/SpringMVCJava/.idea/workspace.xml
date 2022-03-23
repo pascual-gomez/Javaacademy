@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SpringMVCJava:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d759f776-3502-4d47-b5a3-6271841fd4a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/java/com/pascualgomez/controllers/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Docker/Excercises/getting-started" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Docker/Excercises/getting-started" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/ChallengeMVC/src/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/resources/templates/sample.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/ChallengeMVC/src/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/java/com/pascualgomez/config/WebConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/java/com/pascualgomez/config/WebConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/java/com/pascualgomez/controllers/WeatherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/java/com/pascualgomez/controllers/WeatherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/resources/templates/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/resources/templates/weather.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/target/classes/com/pascualgomez/controllers/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/target/classes/com/pascualgomez/controllers/WeatherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/target/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Challenge/WeatherForecast/target/classes/templates/weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Challenge/WeatherForecast/target/classes/templates/weather.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26gDR14RKF4yOHWPHJBsmKEkOdI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.77" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.77" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringMVCJava:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/SpringMVCJava_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="dfe83928-fabc-41d2-a91e-92c77a31785b" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61154" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringMVCJava:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d759f776-3502-4d47-b5a3-6271841fd4a0" name="Changes" comment="" />
+      <created>1647836325443</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647836325443</updated>
+      <workItem from="1647836326618" duration="1509000" />
+      <workItem from="1647837860186" duration="1886000" />
+      <workItem from="1647883357459" duration="250000" />
+      <workItem from="1647883647871" duration="1380000" />
+      <workItem from="1647915149994" duration="1442000" />
+      <workItem from="1647927081676" duration="7000" />
+      <workItem from="1648006740700" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
