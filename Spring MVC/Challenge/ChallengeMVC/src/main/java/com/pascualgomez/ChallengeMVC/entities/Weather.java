@@ -65,4 +65,6 @@ public class Weather {
     public void setTemperature(Temperature temperature) {
         this.temperature = temperature;
     }
+
+
 }

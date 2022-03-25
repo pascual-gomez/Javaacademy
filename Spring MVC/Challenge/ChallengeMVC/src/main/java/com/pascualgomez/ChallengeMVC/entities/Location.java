@@ -34,6 +34,14 @@ public class Location {
         this.state = state;
     }
 
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
+    }
+
     public float getLatitude() {
         return latitude;
     }

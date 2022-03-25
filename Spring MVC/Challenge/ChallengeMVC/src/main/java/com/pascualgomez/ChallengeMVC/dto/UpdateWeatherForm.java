@@ -1,6 +1,8 @@
 package com.pascualgomez.ChallengeMVC.dto;
 
-public class AddWeatherForm {
+public class UpdateWeatherForm {
+
+    private int id;
 
     //Date
     private int year;
@@ -19,7 +21,7 @@ public class AddWeatherForm {
     private float temp3;
     private float temp4;
 
-    public AddWeatherForm(int year, int month, int day, float latitude, float longitude,
+    public UpdateWeatherForm(int year, int month, int day, float latitude, float longitude,
                           String city, String state, float temp1, float temp2,
                           float temp3, float temp4) {
         super();
@@ -36,8 +38,16 @@ public class AddWeatherForm {
         this.temp4 = temp4;
     }
 
-    public AddWeatherForm() {
+    public UpdateWeatherForm() {
         super();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public int getYear() {

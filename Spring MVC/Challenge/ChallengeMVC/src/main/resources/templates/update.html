@@ -4,14 +4,21 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="ISO-8859-1">
-    <title>Weather Forecast</title>
+    <title>Update Weather Forecast</title>
 </head>
 <body>
 
-<h1>Weather Forecast</h1>
+<h1>Edit Weather Forecast</h1>
+
 <div>
-    <form method="POST" action="/weather/add" th:object="${addWeatherForm}">
+
+    <form method="POST" action="/weather/update" th:object="${updateWeatherForm}">
+
         <table>
+            <tr>
+                <td><label>ID</label></td>
+                <td><input th:field="*{id}" /></td>
+            </tr>
             <tr>
                 <td><label>Date (YYYY-MM-DD)</label></td>
                 <td><input th:field="*{year}" /></td>
@@ -54,33 +61,11 @@
                 <td><input type="submit" value="Submit" /></td>
             </tr>
         </table>
+
     </form>
+
 </div>
-<div>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Date</th>
-            <th>Latitude</th>
-            <th>Longitude</th>
-            <th>City</th>
-            <th>State</th>
-            <th>Temperature</th>
-        </tr>
-        <tr th:each="weather : ${weathers}">
-            <td th:text="${weather.id}" />
-            <td th:text="${weather.date}" />
-            <td th:text="${weather.location.latitude}" />
-            <td th:text="${weather.location.longitude}" />
-            <td th:text="${weather.location.city}" />
-            <td th:text="${weather.location.state}" />
-            <td th:text="${weather.temperature.temp1}" />
-            <td th:text="${weather.temperature.temp2}" />
-            <td th:text="${weather.temperature.temp3}" />
-            <td th:text="${weather.temperature.temp4}" />
-        </tr>
-    </table>
-</div>
+
 
 </body>
 </html>
